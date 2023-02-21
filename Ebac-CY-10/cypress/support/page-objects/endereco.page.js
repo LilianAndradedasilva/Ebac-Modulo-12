@@ -1,7 +1,7 @@
 class EnderecoPage {
 
     //metodos
-    editarEnderecoFaturamento(nome, sobrenome, empresa, país, endereco, numero, cidade, estado, cep, telefone, email) {
+   editarEnderecoFaturamento(nome, sobrenome, empresa, país, endereco, numero, cidade, estado, cep, telefone, email) {
         // todos os elementos + todas as ações
         cy.get('.woocommerce-MyAccount-navigation-link--edit-address > a').click()
         cy.get(':nth-child(1) > .title > .edit').click()
